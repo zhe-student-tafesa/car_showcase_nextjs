@@ -12,3 +12,11 @@ export interface SearchManufacturerProps {
     manufacturer: string;
     setmanufacturer: React.Dispatch<React.SetStateAction<string>>
 }
+
+export interface FilterProps {
+    manufacturer?: string;
+    year?: number;
+    model?: string;
+    limit?: number;
+    fuel?: string;
+  }
